@@ -1,7 +1,7 @@
 //SPDX-License-Identifier:MIT
 pragma solidity ^0.8.0;
 
-contract DAO {
+contract SimpleDAO {
     
     struct Member { // to find if the given address is member and approved by the admin
         bool isMember;
